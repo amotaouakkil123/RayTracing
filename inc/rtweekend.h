@@ -2,6 +2,7 @@
 #define RTWEEKEND_H
 
 #include <cmath>
+#include <cstdlib>
 #include <limits>
 #include <memory>
 
@@ -23,8 +24,7 @@ inline double degrees_to_radians(double degrees)
 	return degrees * pi / 180.0;
 }
 
-// Common Headers
-
+#include "interval.h"
 #include "ray.h"
 #include "vec3.h"
 
